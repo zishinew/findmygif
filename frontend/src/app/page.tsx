@@ -7,7 +7,7 @@ import GifGrid from "../components/GifGrid";
 import GifCarousel from "../components/GifCarousel";
 import type { GifData } from "../components/GifCard";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "/api";
 
 interface ContextData {
   conversation_text: string;
